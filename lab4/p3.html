@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title> 4 </title>
+</head>
+<body>
+    <h1> 4 </h1>
+    <hr/>
+    <table border="1">
+        <tr>
+           <th>Name</th>
+        </tr>
+        {%for display in get3%}
+        <tr>
+            <td> {{display.0}} </td>
+        </tr>
+        {%endfor%}
+    </table>
+    <p><a onclick="javascript:history.back(); return false;">Start</a></p>
+</body>
+</html>
